@@ -91,29 +91,28 @@ body{
 }
 
 @media (max-width: 480px) {
-    .weather h1 {
-        font-size: 50px;
-    }
-
-    .weather h2 {
-        font-size: 24px;
-    }
-
-    .details {
-        flex-direction: column;
-        padding: 0;
-    }
-
-    .search {
-        flex-direction: column;
+    .card {
+        padding: 20px 15px;
+        margin: 20px auto 0;
+        border-radius: 15px;
     }
 
     .search input {
-        width: 100%;
-        margin-right: 0;
+        font-size: 14px;
+        padding: 8px 20px;
     }
 
     .search button {
-        margin-top: 10px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .weather-icon {
+        width: 120px;
+        margin-top: 20px;
+    }
+
+    .humidity, .wind {
+        font-size: 22px;
     }
 }
