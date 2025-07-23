@@ -89,3 +89,31 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 480px) {
+    .weather h1 {
+        font-size: 50px;
+    }
+
+    .weather h2 {
+        font-size: 24px;
+    }
+
+    .details {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .search {
+        flex-direction: column;
+    }
+
+    .search input {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .search button {
+        margin-top: 10px;
+    }
+}
